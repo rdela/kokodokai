@@ -1,0 +1,9 @@
+[build]
+  command = "npm run export"
+  publish = "__sapper__/export"
+
+[build.environment]
+  NODE_ENV = "development"
+  NODE_VERSION = "--lts"
+  NPM_VERSION = "6.13.0"
+  RUBY_VERSION = "default"

@@ -1,0 +1,41 @@
+{
+  "name": "kokodokai",
+  "description": "Sapper",
+  "version": "1.0.0",
+  "author": "Ricky de Laveaga <https://rdela.com>",
+  "license": "SEE LICENSE IN license.txt",
+  "private": true,
+  "scripts": {
+    "dev": "sapper dev",
+    "build": "sapper build --legacy",
+    "export": "SAPPER_TIMESTAMP=$(date +%s%3N) sapper export --legacy",
+    "start": "node __sapper__/build",
+    "cy:run": "cypress run",
+    "cy:open": "cypress open",
+    "test": "run-p --race dev cy:run"
+  },
+  "dependencies": {
+    "compression": "1.7.4",
+    "marked": "0.7.0",
+    "polka": "next",
+    "sirv": "0.4.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.7.2",
+    "@babel/plugin-syntax-dynamic-import": "7.2.0",
+    "@babel/plugin-transform-runtime": "7.6.2",
+    "@babel/preset-env": "7.7.1",
+    "@babel/runtime": "7.7.2",
+    "@rollup/plugin-replace": "2.2.1",
+    "cypress": "3.6.1",
+    "npm-run-all": "4.1.5",
+    "rollup": "1.26.3",
+    "rollup-plugin-babel": "4.3.3",
+    "rollup-plugin-commonjs": "10.1.0",
+    "rollup-plugin-node-resolve": "5.2.0",
+    "rollup-plugin-svelte": "5.1.1",
+    "rollup-plugin-terser": "5.1.2",
+    "sapper": "0.27.9",
+    "svelte": "3.12.1"
+  }
+}
