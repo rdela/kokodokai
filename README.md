@@ -1,10 +1,10 @@
-# Sapper Markdown Site with Svelte v3
+# Sapper Markdown Site with Svelte v3 (Netlify + Root Directory Version)
 
 ## Intro
 
 This modified [Sapper](https://sapper.svelte.dev/) template uses [Markdown](https://daringfireball.net/projects/markdown/) for posts and [Svelte 3](https://svelte.dev/).
 
-Visit <https://kokodokai.com/> to see it in action, building with [Netlify](https://www.netlify.com/) configured with a [`netlify.toml`](https://github.com/rdela/kokodokai/blob/master/netlify.toml). We are also adding a [consistent timestamp override environment variable](https://sapper.svelte.dev/docs#Deploying_service_workers) to the [service worker](https://github.com/rdela/kokodokai/blob/master/src/service-worker.js) and the [`export` command](https://github.com/rdela/kokodokai/blob/master/package.json#L11) to support a multi-server environment.
+Visit <https://kokodokai.com/> to see it in action, building with [Netlify](https://www.netlify.com/) configured with a [`netlify.toml`](https://github.com/rdela/kokodokai/blob/master/netlify.toml).
 
 To clone it and get started:
 
@@ -14,6 +14,10 @@ cd sapper-v3
 npm install # or yarn
 npm run dev # or yarn dev
 ```
+
+Open up [localhost:3000](http://localhost:3000/) and start clicking around.
+
+## GitLab Pages Version
 
 For the GitLab pages version, visit <https://rdela.gitlab.io/sapper-v3/> or
 clone:
@@ -25,7 +29,7 @@ npm install # or yarn
 npm run dev # or yarn dev
 ```
 
-Open up [localhost:3000](http://localhost:3000) and start clicking around.
+Open up [localhost:3000/sapper-v3](http://localhost:3000/sapper-v3) and start clicking around.
 
 ## Sources
 
