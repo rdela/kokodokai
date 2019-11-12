@@ -1,10 +1,4 @@
-import { files, shell, routes } from '@sapper/service-worker';
-
-
-// https://sapper.svelte.dev/docs#Deploying_service_workers
-// see `export` in package.json
-const timestamp = process.env.SAPPER_TIMESTAMP;
-// instead of `import { timestamp }`
+import { timestamp, files, shell, routes } from '@sapper/service-worker';
 
 const ASSETS = `cache${timestamp}`;
 

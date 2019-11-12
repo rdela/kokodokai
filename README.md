@@ -4,7 +4,7 @@
 
 This modified [Sapper](https://sapper.svelte.dev/) template uses [Markdown](https://daringfireball.net/projects/markdown/) for posts and [Svelte 3](https://svelte.dev/).
 
-Visit <https://kokodokai.com/> to see it in action, building with [Netlify](https://www.netlify.com/) configured with a [`netlify.toml`](https://github.com/rdela/kokodokai/blob/master/netlify.toml). We are also adding a [consistent timestamp override environment variable](https://sapper.svelte.dev/docs#Deploying_service_workers) to the [service worker](https://github.com/rdela/kokodokai/blob/master/src/service-worker.js) and the [`export` command](https://github.com/rdela/kokodokai/blob/master/package.json#L11) to support a multi-server environment.
+Visit <https://kokodokai.com/> to see it in action, building with [Netlify](https://www.netlify.com/) configured with a [`netlify.toml`](https://github.com/rdela/kokodokai/blob/master/netlify.toml).
 
 To clone it and get started:
 
