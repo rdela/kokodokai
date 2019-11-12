@@ -1,16 +1,22 @@
 <svelte:head>
-	<title>Sapper v3</title>
+	<title>Kokodokai</title>
 </svelte:head>
 
 <h1>Rise Above</h1>
 
-<center><p>you must rise above<br />
-the gloomy clouds<br />
-covering the mountaintop<br />
-otherwise, how will you<br />
-ever see the brightness?</p>
-&mdash; <a href="https://hellopoetry.com/poem/66443/rise-above/">Ryōkan Taigu</a>
-</center>
+<div class="center">
+	<p>
+		you must rise above<br />
+		the gloomy clouds<br />
+		covering the mountaintop<br />
+		otherwise, how will you<br />
+		ever see the brightness?
+	</p>
+	<p>
+		&mdash; <a href="https://hellopoetry.com/poem/66443/rise-above/">Ryōkan Taigu</a>
+	</p>
+</div>
+
 
 <ul>
 	{#each posts as post}
