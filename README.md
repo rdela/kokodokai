@@ -10,7 +10,7 @@ To clone it and get started:
 
 ```bash
 git clone https://github.com/rdela/kokodokai.git
-cd sapper-v3
+cd kokodokai
 npm install # or yarn
 npm run dev # or yarn dev
 ```
@@ -20,7 +20,7 @@ Open up [localhost:3000](http://localhost:3000/) and start clicking around.
 ## GitLab Pages Version
 
 For the GitLab pages version, visit <https://rdela.gitlab.io/sapper-v3/> or
-clone:
+clone <https://gitlab.com/rdela/sapper-v3>:
 
 ```bash
 git clone https://gitlab.com/rdela/sapper-v3.git
@@ -29,7 +29,7 @@ npm install # or yarn
 npm run dev # or yarn dev
 ```
 
-Open up [localhost:3000/sapper-v3](http://localhost:3000/sapper-v3) and start clicking around.
+Open up [localhost:3000/sapper-v3](http://localhost:3000/sapper-v3/) and start clicking around.
 
 ## Sources
 
