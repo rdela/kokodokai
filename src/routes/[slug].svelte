@@ -9,7 +9,7 @@
 	{#if post.metadata.caption}
 		<figcaption>
 			{#if post.metadata.captionlabel}
-				{post.metadata.captionlabel}:
+				{post.metadata.captionlabel}
 			{/if}
 			{#if post.metadata.captionlink}
 				<a href="{post.metadata.captionlink}">
