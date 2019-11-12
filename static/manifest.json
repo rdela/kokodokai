@@ -1,18 +1,18 @@
 {
 	"background_color": "#ffffff",
-	"theme_color": "#aa1e1e",
-	"name": "TODO",
-	"short_name": "TODO",
+	"theme_color": "#159497",
+	"name": "Kokodokai",
+	"short_name": "Kokodokai",
 	"display": "minimal-ui",
 	"start_url": "/",
 	"icons": [
 		{
-			"src": "svelte-logo-192.png",
+			"src": "sapper-markdown-192.png",
 			"sizes": "192x192",
 			"type": "image/png"
 		},
 		{
-			"src": "svelte-logo-512.png",
+			"src": "sapper-markdown-512.png",
 			"sizes": "512x512",
 			"type": "image/png"
 		}
