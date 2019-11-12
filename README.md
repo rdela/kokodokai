@@ -1,4 +1,4 @@
-# Sapper Markdown Site with Svelte v3
+# Sapper Markdown Site with Svelte v3 (Netlify + Root Directory Version)
 
 ## Intro
 
@@ -15,6 +15,10 @@ npm install # or yarn
 npm run dev # or yarn dev
 ```
 
+Open up [localhost:3000](http://localhost:3000/) and start clicking around.
+
+## GitLab Pages Version
+
 For the GitLab pages version, visit <https://rdela.gitlab.io/sapper-v3/> or
 clone:
 
@@ -25,7 +29,7 @@ npm install # or yarn
 npm run dev # or yarn dev
 ```
 
-Open up [localhost:3000](http://localhost:3000) and start clicking around.
+Open up [localhost:3000/sapper-v3](http://localhost:3000/sapper-v3) and start clicking around.
 
 ## Sources
 
