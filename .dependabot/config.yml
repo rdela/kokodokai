@@ -10,7 +10,7 @@ update_configs:
     default_assignees:
       - "rdela"
     default_labels:
-      - "dependabot"
+      - "dependencies"
     # automerged_updates:
     #   - match:
     #       dependency_type: "all"
