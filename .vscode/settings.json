@@ -10,5 +10,9 @@
     "pubdate",
     "ryokan",
     "sirv"
+  ],
+  "cSpell.ignorePaths": [
+    ".dependabot",
+    ".vscode"
   ]
 }
