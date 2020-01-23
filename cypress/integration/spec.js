@@ -1,10 +1,11 @@
+/* eslint-disable no-undef */
 describe('Sapper template app', () => {
 	beforeEach(() => {
-		cy.visit('/')
+		cy.visit('/');
 	});
 
 	it('has the correct <h1>', () => {
-		cy.contains('h1', 'Rise Above')
+		cy.contains('h1', 'Kokodokai');
 	});
 
 	it('navigates to /about', () => {

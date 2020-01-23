@@ -2,21 +2,7 @@
 	<title>Kokodokai</title>
 </svelte:head>
 
-<h1>Rise Above</h1>
-
-<div class="center">
-	<p>
-		you must rise above<br />
-		the gloomy clouds<br />
-		covering the mountaintop<br />
-		otherwise, how will you<br />
-		ever see the brightness?
-	</p>
-	<p>
-		&mdash; <a href="https://hellopoetry.com/poem/66443/rise-above/">Ryōkan Taigu</a>
-	</p>
-</div>
-
+<h1>Kokodokai</h1>
 
 <ul>
 	{#each posts as post}
@@ -97,11 +83,11 @@
 
 
 <script context="module">
-	export async function preload({ params, query }) {
-			return this.fetch(`index.json`).then(r => r.json()).then(posts => {
-				return { posts };
-			});
-		}
+	export async function preload() {
+		return this.fetch(`index.json`).then(r => r.json()).then(posts => {
+			return { posts };
+		});
+	}
 </script>
 
 <script>
