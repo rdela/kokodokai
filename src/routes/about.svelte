@@ -45,24 +45,25 @@ figure img {
 	max-width: 100%;
 	display: inline-block;
 	z-index: 0;
-	position: absolute;
+	/* position: absolute;
 	top: 8px;
-	left: calc(50% - 192px);
+	left: calc(50% - 192px); */
 	animation: spin-cycle infinite 40s linear;
 	animation-delay: 2s;
 	/* background: #f00; */
 }
 
 figcaption {
+	box-sizing: border-box;
 	display: block;
 	font-size: .875em;
 	font-style: italic;
 	line-height: 2.5em;
 	padding: 0 1em;
 	z-index: 1;
-	position: absolute;
+	/* position: absolute;
 	top: 392px;
-	left: 0;
+	left: 0; */
 	width: 100%;
 	/* background: #f0f; */
 }
