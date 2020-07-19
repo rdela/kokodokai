@@ -10,10 +10,6 @@
 
 	ul {
 		align-items: flex-start;
-		display: -webkit-box;
-		display: -moz-box;
-		display: -ms-flexbox;
-		display: -webkit-flex;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
@@ -45,5 +41,6 @@
 	<ul>
 		<li><a class='{segment === undefined ? "selected" : ""}' href='.'>home</a></li>
 		<li><a class='{segment === "about" ? "selected" : ""}' href='about'>about</a></li>
+		<li><a href='rss.xml'>feed</a></li>
 	</ul>
 </nav>

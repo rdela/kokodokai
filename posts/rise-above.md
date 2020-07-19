@@ -19,6 +19,6 @@ otherwise, how will you
 
 ever see the brightness?
 
-&mdash; [Ryōkan Taigu](https://hellopoetry.com/poem/66443/rise-above/)
+— [Ryōkan Taigu](https://hellopoetry.com/poem/66443/rise-above/)
 
 </div>

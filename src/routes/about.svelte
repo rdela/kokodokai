@@ -25,32 +25,21 @@
 </script>
 
 <style>
-.content {
-	max-width: 56em;
-	padding: 1em 2em 2em;
-	margin: 0 auto;
-	text-align: left;
-}
-
 figure {
 	margin: 0 auto;
 	position: relative;
 	width: 100%;
-	height: 416px;
 }
 
 figure img {
-	height: auto;
-	max-height: 384px;
-	max-width: 100%;
-	display: inline-block;
-	z-index: 0;
-	/* position: absolute;
-	top: 8px;
-	left: calc(50% - 192px); */
 	animation: spin-cycle infinite 40s linear;
 	animation-delay: 2s;
-	/* background: #f00; */
+	display: block;
+	height: auto;
+	margin: 0 auto;
+	max-height: 384px;
+	max-width: 100%;
+	z-index: 0;
 }
 
 figcaption {
@@ -58,18 +47,20 @@ figcaption {
 	display: block;
 	font-size: .875em;
 	font-style: italic;
-	line-height: 2.5em;
 	padding: 0 1em;
-	z-index: 1;
-	/* position: absolute;
-	top: 392px;
-	left: 0; */
 	width: 100%;
-	/* background: #f0f; */
+	z-index: 1;
+}
+
+.content {
+	margin: 0 auto;
+	max-width: 41em;
+	padding: 1em 2em 2em;
+	text-align: left;
 }
 
 h1 {
-	margin: 1em 0 .25em;
+	margin: 0 0 .25em;
 }
 
 h1,
