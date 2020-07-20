@@ -17,6 +17,14 @@ npm run dev # or yarn dev
 
 Open up [localhost:3000](http://localhost:3000/) and start clicking around.
 
+## Now with 100% MOAR FEED
+
+That's right ppl. RSS in da house. Check out `src/routes/rss.xml.js`.
+Modeled after the [svelte.dev feed]() and @brentsimmons
+[Inessential RSS structure](https://inessential.com/xml/rss.xml).
+
+Next up, JSON Feed!
+
 ## GitLab Pages Version
 
 For the GitLab pages version, visit <https://rdela.gitlab.io/sapper-v3/> or

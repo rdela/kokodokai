@@ -30,10 +30,6 @@
 
 	figure span {
 		align-items: flex-end;
-		display: -webkit-box;
-		display: -moz-box;
-		display: -ms-flexbox;
-		display: -webkit-flex;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
@@ -50,10 +46,6 @@
 
 	ul {
 		align-items: flex-start;
-		display: -webkit-box;
-		display: -moz-box;
-		display: -ms-flexbox;
-		display: -webkit-flex;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
@@ -68,6 +60,10 @@
 		padding: 11px;
 		text-align: center;
 		width: 202px;
+		display: flex;
+    justify-content: center;
+    min-height: 269px;
+    align-items: center;
 	}
 
 	li a {
