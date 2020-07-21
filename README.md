@@ -20,8 +20,8 @@ Open up [localhost:3000](http://localhost:3000/) and start clicking around.
 ## Now with 100% MOAR FEED
 
 That's right ppl. RSS in da house. Check out `src/routes/rss.xml.js`.
-Modeled after the [svelte.dev feed]() and @brentsimmons
-[Inessential RSS structure](https://inessential.com/xml/rss.xml).
+Modeled after the [svelte.dev feed](https://github.com/sveltejs/v2.svelte.dev/blob/b21e7b90ad7f2d62556eba660314e7238a22ce4a/src/routes/blog/rss.xml.js) and [@brentsimmons](https://github.com/brentsimmons)'
+[RSS structure](https://inessential.com/xml/rss.xml) on [Inessential](https://inessential.com/).
 
 Next up, JSON Feed!
 
