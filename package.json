@@ -28,7 +28,7 @@
     "@babel/preset-env": "7.11.0",
     "@babel/runtime": "7.11.0",
     "@rollup/plugin-replace": "2.3.3",
-    "cypress": "4.11.0",
+    "cypress": "5.1.0",
     "eslint": "^7.3.1",
     "eslint-plugin-import": "^2.20.0",
     "eslint-plugin-svelte3": "^2.7.3",
