@@ -9,4 +9,4 @@ community_bridge: # Replace with a single Community Bridge project-name e.g., cl
 liberapay: # Replace with a single Liberapay username
 issuehunt: # Replace with a single IssueHunt username
 otechie: # Replace with a single Otechie username
-custom: ['https://cash.app/$famebot', 'https://venmo.com/rdela', 'https://www.paypal.me/famebot'] # Up to 4 custom sponsorship URLs
+custom: ['https://cash.app/$famebot', 'https://venmo.com/famebot', 'https://www.paypal.me/famebot'] # Up to 4 custom sponsorship URLs
