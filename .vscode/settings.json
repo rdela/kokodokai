@@ -1,18 +1,28 @@
 {
   "cSpell.words": [
     "Kokodokai",
+    "MOAR",
     "Oatv",
     "Rumimpunu",
     "Taigu",
+    "brentsimmons",
     "captionlabel",
     "captionlink",
+    "chao",
+    "degit",
     "flexbox",
+    "initialise",
+    "pngwn",
+    "precaches",
+    "preload",
     "pubdate",
     "ryokan",
-    "sirv"
+    "sirv",
+    "sveltejs"
   ],
   "cSpell.ignorePaths": [
     ".dependabot",
+    ".github",
     ".vscode"
   ]
 }

@@ -18,12 +18,6 @@
 	<p>This site is part of an ongoing series of experiments with <a href="https://sapper.svelte.dev/">Sapper</a>, <a href="https://svelte.dev/">Svelte</a>, and <a href="https://daringfireball.net/projects/markdown/">Markdown</a>. Have a look at the <a href="https://github.com/rdela/kokodokai">source code on GitHub</a> or visit the <a href="https://rdela.gitlab.io/sapper-v3">GitLab pages version</a>.</p>
 </section>
 
-<script context="module">
-	export async function preload({ params, query }) {
-		return;
-	}
-</script>
-
 <style>
 figure {
 	margin: 0 auto;

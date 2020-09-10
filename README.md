@@ -49,5 +49,3 @@ cd my-app
 npm install # or yarn
 npm run dev
 ```
-
-Note [via pngwn, Dec 27, 2018](https://github.com/pngwn/sapper-v3/commit/db2d2e5f16873b40b5525f325bdae31d3e2d63bb#diff-04c6e90faac2675aa89e2176d2eec7d8R5): Right now, Sapper seems to expect a preload function to be exported from every route, it will still work without one but it will give you warnings. You can just [`return` nothing from preload](https://gitlab.com/rdela/sapper-v3/blob/master/src/routes/about.svelte#L26) to silence it.
