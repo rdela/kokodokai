@@ -2,7 +2,7 @@ import { getPost } from './_posts.js';
 
 const lookup = new Map();
 
-export function get(req, res, next) {
+export function get(req, res) {
 	const { slug } = req.params;
 
 	if (process.env.NODE_ENV !== 'production' || !lookup.has(slug)) {

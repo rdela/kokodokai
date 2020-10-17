@@ -18,8 +18,14 @@ h1 {
 	margin: 0.125em auto 0.375em;
 }
 
+figcaption,
 figure,
-h1,
+header {
+	display: block;
+}
+
+figure,
+header,
 .center {
 	text-align: center;
 }
