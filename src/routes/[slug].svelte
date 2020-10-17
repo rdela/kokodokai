@@ -5,7 +5,7 @@
 
 {#if post.metadata.image}
 <figure>
-	<img src="{post.metadata.image}" alt="" />
+	<img src="img/{post.metadata.image}" alt="" />
 	{#if post.metadata.caption}
 		<figcaption>
 			{#if post.metadata.captionlabel}
@@ -25,7 +25,10 @@
 
 
 <section class='content'>
-	<h1>{post.metadata.title}</h1>
+	<header>
+		<h1>{post.metadata.title}</h1>
+		<p><small>{post.metadata.pubdate}</small></p>
+	</header>
 	{@html post.html}
 </section>
 
@@ -41,7 +44,6 @@
 	}
 
 	figcaption {
-		display: block;
 		font-size: .875em;
 		font-style: italic;
 		padding: 0 1em;

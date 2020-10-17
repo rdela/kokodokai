@@ -17,13 +17,11 @@ npm run dev # or yarn dev
 
 Open up [localhost:3000](http://localhost:3000/) and start clicking around.
 
-## Now with 100% MOAR FEED
+## Now with ~~100%~~ **200%** MOAR FEED
 
-That's right ppl. RSS in da house. Check out `src/routes/rss.xml.js`.
-Modeled after the [svelte.dev feed](https://github.com/sveltejs/v2.svelte.dev/blob/b21e7b90ad7f2d62556eba660314e7238a22ce4a/src/routes/blog/rss.xml.js) and [@brentsimmons](https://github.com/brentsimmons)'
-[RSS structure](https://inessential.com/xml/rss.xml) on [Inessential](https://inessential.com/).
-
-Next up, JSON Feed!
+That's *right* ppl. RSS + JSON Feed in da house. Check out `src/routes/rss.xml.js` and `src/routes/feed.json.js`.
+RSS Modeled after the [svelte.dev feed](https://github.com/sveltejs/v2.svelte.dev/blob/b21e7b90ad7f2d62556eba660314e7238a22ce4a/src/routes/blog/rss.xml.js), [@brentsimmons](https://github.com/brentsimmons)'
+[RSS](https://inessential.com/xml/rss.xml) + [JSON Feed](https://inessential.com/feed.json) structure on [Inessential](https://inessential.com/), and [@gruber](https://github.com/gruber)'s [RSS](https://daringfireball.net/feeds/main) + [JSON Feed](https://daringfireball.net/feeds/json) on [Daring Fireball](https://daringfireball.net/feeds/).
 
 ## GitLab Pages Version
 

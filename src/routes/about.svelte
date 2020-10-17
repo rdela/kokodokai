@@ -3,7 +3,7 @@
 </svelte:head>
 
 <figure>
-	<img src="./sacred-chao.png" alt="" height="384" width="384" />
+	<img src="./img/sacred-chao.png" alt="" height="384" width="384" />
 	<figcaption>
 		Source:
 		<a href="https://en.wikipedia.org/wiki/File:Sacred_Chao_2.jpg">

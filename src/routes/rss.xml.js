@@ -1,29 +1,23 @@
 import { getPosts } from './_posts.js';
-
-const months = ',Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec'.split( ',' );
-
-function formatPubdate ( str ) {
-	const [ y, m, d ] = str.split( '-' );
-	return `${d} ${months[+m]} ${y}`;
-}
+import { formatPubdate, site } from '../metadata.js';
 
 const rss = `
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-	<title>Kokodokai</title>
-	<link>https://kokodokai.com/</link>
-	<description>An experiment with Sapper, Svelte, and Markdown</description>
+	<title>${site.title}</title>
+	<link>${site.link}</link>
+	<description>${site.description}</description>
 	<image>
-		<url>https://kokodokai.com/favicon.png</url>
-		<title>Kokodokai</title>
-		<link>https://kokodokai.com/</link>
+		<url>${site.image}</url>
+		<title>${site.title}</title>
+		<link>${site.link}</link>
 	</image>
 	${getPosts().map( post => `
 		<item>
 			<title>${post.metadata.title}</title>
-			<link>https://kokodokai.com/${post.slug}</link>
-			<guid>https://kokodokai.com/${post.slug}</guid>
+			<link>${site.link}${post.slug}</link>
+			<guid>${site.link}${post.slug}</guid>
       <pubDate>${formatPubdate(post.metadata.pubdate)}</pubDate>
 			<description>${
 	post.html

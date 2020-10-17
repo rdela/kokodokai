@@ -2,7 +2,9 @@
 	<title>Kokodokai</title>
 </svelte:head>
 
-<h1>Kokodokai</h1>
+<header>
+	<h1>Kokodokai</h1>
+</header>
 
 <ul>
 	{#each posts as post}
@@ -14,7 +16,7 @@
 			<a rel='prefetch' href='{post.slug}'>
 				{#if post.image}
 					<figure>
-						<span><img src="{post.image}" alt="" /></span>
+						<span><img src="img/{post.image}" alt="" /></span>
 					</figure>
 				{/if}
 				{post.title}
@@ -25,6 +27,7 @@
 
 <style>
 	figure img {
+		max-height: 202px;
 		max-width: 202px;
 	}
 
@@ -55,7 +58,7 @@
 		padding: 0;
 	}
 
-	ul li {
+	li {
 		list-style-type: none;
 		padding: 11px;
 		text-align: center;

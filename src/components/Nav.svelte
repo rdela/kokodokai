@@ -19,7 +19,7 @@
 		width: 100%;
 	}
 
-	ul li {
+	li {
 		list-style-type: none;
 		padding: 11px;
 		text-align: center;
@@ -41,6 +41,7 @@
 	<ul>
 		<li><a class='{segment === undefined ? "selected" : ""}' href='.'>home</a></li>
 		<li><a class='{segment === "about" ? "selected" : ""}' href='about'>about</a></li>
-		<li><a href='rss.xml'>feed</a></li>
+		<li><a href='rss.xml'>RSS</a></li>
+		<li><a href='feed.json'>JSON Feed</a></li>
 	</ul>
 </nav>
