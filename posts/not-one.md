@@ -6,7 +6,7 @@ image: ryonen-not-one.png
 
 <div class="center">
 
-The Completely Englightened Dharma Body has not one thing
+THE COMPLETELY ENLIGHTENED DHARMA BODY HAS NOT ONE THING
 
 — Ryonen Gensô
 
