@@ -5,5 +5,5 @@
 [build.environment]
   NODE_ENV = "development"
   NODE_VERSION = "--lts"
-  NPM_VERSION = "6.14.8"
+  NPM_VERSION = "6.14.11"
   RUBY_VERSION = "default"
