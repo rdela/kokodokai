@@ -1,14 +1,9 @@
-<svelte:head>
-	<title>{status}</title>
-</svelte:head>
+<script>
+	import TransitionFadeInOut from '../components/TransitionFadeInOut.svelte';
+	const dev = process.env.NODE_ENV === 'development';
+	export let error, status;
+</script>
 
-<h1>{status}</h1>
-
-<p>{error.message}</p>
-
-{#if dev && error.stack}
-	<pre>{error.stack}</pre>
-{/if}
 
 <style>
 	h1, p {
@@ -32,7 +27,17 @@
 	}
 </style>
 
-<script>
-	const dev = process.env.NODE_ENV === 'development';
-	export let error, status;
-</script>
+
+<svelte:head>
+	<title>{status}</title>
+</svelte:head>
+
+<TransitionFadeInOut>
+	<h1>{status}</h1>
+
+	<p>{error.message}</p>
+
+	{#if dev && error.stack}
+		<pre>{error.stack}</pre>
+	{/if}
+</TransitionFadeInOut>

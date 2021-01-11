@@ -1,36 +1,59 @@
+<script context="module">
+	export async function preload({ params }) {
+		// the `slug` parameter is available because
+		// this file is called [slug].html
+		const res = await this.fetch(`${params.slug}.json`);
+		const data = await res.json();
+
+		if (res.status === 200) {
+			return { post: data };
+		} else {
+			this.error(res.status, data.message);
+		}
+	}
+</script>
+
+<script>
+	import TransitionFadeInOut from '../components/TransitionFadeInOut.svelte';
+	export let post;
+</script>
+
+
 <svelte:head>
 	<title>{post.metadata.title}</title>
 </svelte:head>
 
-
-{#if post.metadata.image}
-<figure>
-	<img src="img/{post.metadata.image}" alt="" />
-	{#if post.metadata.caption}
-		<figcaption>
-			{#if post.metadata.captionlabel}
-				{post.metadata.captionlabel}
+<TransitionFadeInOut>
+	{#if post.metadata.image}
+		<figure>
+			<img src="img/{post.metadata.image}" alt="" />
+			{#if post.metadata.caption}
+				<figcaption>
+					{#if post.metadata.captionlabel}
+						{post.metadata.captionlabel}
+					{/if}
+					{#if post.metadata.captionlink}
+						<a href="{post.metadata.captionlink}">
+							{post.metadata.caption}
+						</a>
+					{:else}
+						{post.metadata.caption}
+					{/if}
+				</figcaption>
 			{/if}
-			{#if post.metadata.captionlink}
-				<a href="{post.metadata.captionlink}">
-					{post.metadata.caption}
-				</a>
-			{:else}
-				{post.metadata.caption}
-			{/if}
-		</figcaption>
+		</figure>
 	{/if}
-</figure>
-{/if}
 
 
-<section class='content'>
-	<header>
-		<h1>{post.metadata.title}</h1>
-		<p><small>{post.metadata.pubdate}</small></p>
-	</header>
-	{@html post.html}
-</section>
+	<section class='content'>
+		<header>
+			<h1>{post.metadata.title}</h1>
+			<p><small>{post.metadata.pubdate}</small></p>
+		</header>
+		{@html post.html}
+	</section>
+</TransitionFadeInOut>
+
 
 <style>
 	figure {
@@ -91,24 +114,3 @@
 		margin: 0 0 0.5em 0;
 	}
 </style>
-
-<script>
-	export let post;
-</script>
-
-<script context="module">
-
-	export async function preload({ params }) {
-		// the `slug` parameter is available because
-		// this file is called [slug].html
-		const res = await this.fetch(`${params.slug}.json`);
-		const data = await res.json();
-
-		if (res.status === 200) {
-			return { post: data };
-		} else {
-			this.error(res.status, data.message);
-		}
-	}
-
-</script>

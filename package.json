@@ -1,7 +1,7 @@
 {
   "name": "kokodokai",
   "description": "Sapper",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Ricky de Laveaga <https://rdela.com>",
   "license": "SEE LICENSE IN license.txt",
   "private": true,
