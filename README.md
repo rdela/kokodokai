@@ -19,7 +19,7 @@ Open up [localhost:3000](http://localhost:3000/) and start clicking around.
 
 ## Page Transitions
 
-Added fade in/out page transitions after getting annoyed at some jitter when navigating between routes and then feeling inspired by [pngwn's svelte-travel-transitions](https://github.com/pngwn/svelte-travel-transitions) repo/demo based on [Sarah Drasner's page-transitions-travelapp](https://github.com/sdras/page-transitions-travelapp) when revisiting it.
+Added fade in/out page transitions after getting annoyed at some jitter when navigating between routes and then feeling inspired revisiting [pngwn's svelte-travel-transitions](https://github.com/pngwn/svelte-travel-transitions) repo/demo based on [Sarah Drasner's page-transitions-travelapp](https://github.com/sdras/page-transitions-travelapp).
 
 See `src/components/TransitionFadeInOut.svelte` and these routes:
 
