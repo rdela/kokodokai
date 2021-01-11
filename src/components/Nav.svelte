@@ -2,6 +2,21 @@
 	export let segment;
 </script>
 
+
+<nav>
+	<ul>
+		<li>
+			<a class='{segment === undefined ? "selected" : ""}' href='.'>home</a>
+		</li>
+		<li>
+			<a class='{segment === "about" ? "selected" : ""}' href='about'>about</a>
+		</li>
+		<li><a href='rss.xml'>RSS</a></li>
+		<li><a href='feed.json'>JSON Feed</a></li>
+	</ul>
+</nav>
+
+
 <style>
 	nav {
 		padding: 0 1.5em;
@@ -36,12 +51,3 @@
 		display: block;
 	}
 </style>
-
-<nav>
-	<ul>
-		<li><a class='{segment === undefined ? "selected" : ""}' href='.'>home</a></li>
-		<li><a class='{segment === "about" ? "selected" : ""}' href='about'>about</a></li>
-		<li><a href='rss.xml'>RSS</a></li>
-		<li><a href='feed.json'>JSON Feed</a></li>
-	</ul>
-</nav>
