@@ -4,7 +4,6 @@
 /cypress/screenshots/
 /__sapper__/
 
-package-lock.json
 yarn.lock
 
 *.log
