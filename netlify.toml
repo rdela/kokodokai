@@ -1,5 +1,5 @@
 [build]
-  command = "npm run export"
+  command = "SAPPER_TIMESTAMP=$(date +%s%3N) npm run export"
   publish = "__sapper__/export"
 
 [build.environment]
