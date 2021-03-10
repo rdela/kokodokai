@@ -3,7 +3,7 @@ title: Welcome to Kokodokai!
 pubdate: 2019-10-30
 image: juan-rumimpunu-nLXOatvTaLo-unsplash.jpg
 caption: Juan Rumimpunu
-captionlabel: Photo:
+captionlabel: Monkey Forest, Bali, Indonesia, Photo:
 captionlink: https://unsplash.com/photos/nLXOatvTaLo
 ---
 
