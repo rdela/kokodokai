@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import marked from 'marked';
+import { marked } from 'marked';
 
 export function getPosts () {
 	const slugs = fs.readdirSync('posts')
@@ -23,7 +23,7 @@ export function getPost(slug) {
 	const date = new Date(`${metadata.pubdate} EDT`); // cheeky hack
 	metadata.dateString = date.toDateString();
 
-	const html = marked(content);
+	const html = marked.parse(content);
 
 	return {
 		slug,
