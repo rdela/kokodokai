@@ -32,7 +32,7 @@
     "@rollup/plugin-commonjs": "21.0.3",
     "@rollup/plugin-node-resolve": "13.3.0",
     "@rollup/plugin-replace": "4.0.0",
-    "cypress": "9.5.4",
+    "cypress": "10.0.0",
     "eslint": "8.14.0",
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-svelte3": "3.4.1",
