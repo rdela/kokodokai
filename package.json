@@ -20,7 +20,7 @@
     "compression": "1.7.4",
     "marked": "5.0.4",
     "polka": "next",
-    "sirv": "2.0.2"
+    "sirv": "2.0.3"
   },
   "devDependencies": {
     "@babel/core": "7.21.0",
