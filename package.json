@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "compression": "1.7.4",
-    "marked": "5.0.4",
+    "marked": "9.0.3",
     "polka": "next",
     "sirv": "2.0.3"
   },
